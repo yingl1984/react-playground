@@ -1,6 +1,6 @@
 import React from 'react';
 import './Tooltip.css';
-
+//Sample projects in Lesson 7
 // function Tooltip(props) {
 //   return (
 //     <span className='Tooltip'>

@@ -1,13 +1,13 @@
 import React from "react";
-import './Accordion.css';
 
+//lesson 10
 class Accordion extends React.Component {
     static defaultProps={sections:[]};
     state={currentSection:null}
+    
     handleButtonClick(index) {
         this.setState({ currentSection: index })  
     }
-
 
     render(){
         return(

@@ -7,7 +7,8 @@ import TheDate from './state/TheDate.js';
 import Counter from './state/Counter.js';
 import Tabs from './state/Tabs.js';
 import Accordion from './state-drills/Accordion.js';
-
+import DemonymApp from './state/demonymapp/demonymApp.js'
+import BookSearchApp from './state/bookSearch_GoogleAPI/BookSearchApp.js'
 const firstTooltip = (
   <Tooltip color='hotpink' message='tooltip message'>
    ipsum
@@ -19,6 +20,7 @@ const secondTooltip = (
   </Tooltip>
 )
 
+//Lesson 10. For state/Tabs.js
 const tabsProp = [
   { name: 'First tab',
     content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem quos consectetur expedita consequatur. Fugit, sapiente aspernatur corporis velit, dolor eum reprehenderit provident ipsam, maiores incidunt repellat! Facilis, neque doloremque.' },
@@ -28,6 +30,7 @@ const tabsProp = [
     content: 'Fugit, sapiente aspernatur corporis velit, dolor eum reprehenderit provident ipsam, maiores incidunt repellat! Facilis, neque doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam exercitationem quos consectetur expedita consequatur.' },
 ];
 
+//Lesson 10 assgiment. For state-drills/Accordion.js
 const sections = [
   {
     title: 'Section 1',
@@ -45,11 +48,14 @@ const sections = [
 
 class App extends React.Component {
   render() {
-    return <div>
-      <Accordion sections={sections}/>
+    return (
+    <div className="App">
+      <DemonymApp />
     </div>
+    )
   }
 }
+//For Lesson 7
 // function App() {
 //   return (
 //     <main className='App'>

@@ -1,5 +1,5 @@
 import React from 'react';
-
+//Sample code in Lesson 9
 class TheDate extends React.Component {
     constructor(props) {
         super(props)

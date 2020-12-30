@@ -1,5 +1,5 @@
 import React from "react";
-
+//Lesson10
 class Tabs extends React.Component {
     static defaultProps={tabs:[]};
     state={currentTabIndex : 0};

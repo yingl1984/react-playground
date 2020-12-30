@@ -1,5 +1,5 @@
 import React from 'react';
-
+//Sample code for Lesson9
 class Counter extends React.Component {
   static defaultProps = {
     step : 1
